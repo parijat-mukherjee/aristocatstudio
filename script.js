@@ -435,7 +435,7 @@ function handleSubmit() {
   document.getElementById("email").value = "";
   document.getElementById("query").value = "";
 
-  var apiUrl = "http://localhost:3000/submit-form";
+  var apiUrl = "https://aristocat-backend.onrender.com/submit-form";
 
   var data = {
     name: name,
